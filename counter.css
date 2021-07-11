@@ -1,0 +1,65 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;   
+    font-family: sans-serif;
+    font-weight: normal;
+    background-image: url(../Count_App/counter.jpg);
+    align-items: center;
+}
+.container {
+    height: 500px;
+    width: 400px;
+    border: 3px solid white;
+    box-shadow: 3px 3px black;
+    position: relative;
+    box-shadow: white;
+}
+h2 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 8%;
+    left: 18%;
+}
+.container h1 {
+    width: 123px;
+    height: 127px;
+    color: green;
+    text-align: center;
+    font-size: 150px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+#buttons {
+    height: 50px;
+    width: 260px;
+    position: absolute;
+    top: 65%;
+    left: 60px;
+}
+button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #012169;
+    cursor: pointer;
+    color: white;
+    box-shadow: 3px 3px black;
+
+}
+.btn-group {
+    text-align: center;
+}
+.btn-group2 {
+    text-align: center;
+}
